@@ -3,6 +3,7 @@ import './App.css';
 import Parent from './Callbackfunc/Parent';
 import ParentComp from './Conditional rendering/ParentComp';
 import ParentalMem from './MemoCond/ParentalMem';
+import NewComp from './NewComp';
 import Parentsec from './condsecond/Parentsec';
 // import Student1 from './Student1';
 // import Student2 from './Student2';
@@ -23,6 +24,7 @@ function App() {
       <ParentComp/>
       <Parentsec/>
       <ParentalMem />
+      <NewComp/>
     </div>
   );
 }
